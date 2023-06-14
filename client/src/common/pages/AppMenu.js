@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 const AppMenu = ({ onAppSelect }) => {
   const handleAppSelect = (appName) => {
-    // Perform any necessary actions before selecting the app
     // For example, you might want to store the selected app in state or localStorage
     // Then, call onAppSelect to set selectedApp to true and render the selected application
     onAppSelect(appName);
